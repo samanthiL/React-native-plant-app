@@ -1,0 +1,169 @@
+{
+    "banner": [
+      "http://tutofox.com/foodapp//banner/banner-1.jpg",
+      "http://tutofox.com/foodapp//banner/banner-2.jpg",
+      "http://tutofox.com/foodapp//banner/banner-3.png"
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Indoor plants",
+        "color": "#fbc831",
+        "image": "https://cdn.shopify.com/s/files/1/0275/9108/2053/products/Webp.net-resizeimage_67_540x.jpg?v=1594018138"
+      },
+      {
+        "id": 2,
+        "name": "outdoor plants",
+        "color": "#9fd236",
+        "image": "http://tutofox.com/foodapp//categories/burger.png"
+        
+      },
+      {
+        "id": 3,
+        "name": "Landscape plants",
+        "color": "orange",
+        "image": "http://tutofox.com/foodapp//categories/pizza.png"
+      },
+      {
+        "id": 4,
+        "name": "Edible Garden",
+        "color": "#f2f2f2",
+        "image": "http://tutofox.com/foodapp//categories/drink.png"
+      }
+    ],
+    "food": [
+      {
+        "name": " 'Green Lady",
+        "price": 24,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/77/pl2000027735.jpg?width=940&height=940",
+        "description": "Nephrolepis exaltata"
+      },
+      {
+        "name": " Swiss cheese plant",
+        "price": 20,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/77/pl2000027702.jpg?width=940&height=940",
+        "description":"Monstera deliciosa"
+      },
+      {
+        "name": "Lemon spider plant",
+        "price": 21,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034441.jpg?width=940&height=940",
+        "description":"Chlorophytum comosum '"
+      },
+      {
+        "name": "White Willd Orchid'",
+        "price": 22,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/81/pl2000028180.jpg?width=440&height=440",
+        "description":"Phalaenopsis "
+      },
+      {
+        "name": "Aloe vera",
+        "price": 26,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034450.jpg?width=940&height=940",
+        "description":"Aloer"
+      },
+      {
+        "name": "Elegant Polka Dots'moth orchid",
+        "price": 25,
+        "categorie": 1,
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034442.jpg?width=440&height=440",
+        "description":"Phalaenopsis "
+      },
+      {
+        "name": "Burger Home",
+        "price": 16,
+        "categorie": 2,
+        "image": "http://tutofox.com/foodapp//food/burger/burger-1.png"
+      },
+      {
+        "name": "MegaBurger",
+        "price": 16,
+        "categorie": 2,
+        "image": "http://tutofox.com/foodapp//food/burger/burger-2.png"
+      },
+      {
+        "name": "Burger Special",
+        "price": 16,
+        "categorie": 2,
+        "image": "http://tutofox.com/foodapp//food/burger/burger-3.png"
+      },
+      {
+        "name": "Burger Cheese",
+        "price": 16,
+        "categorie": 2,
+        "image": "http://tutofox.com/foodapp//food/burger/burger-4.png"
+      },
+  
+      {
+        "name": "Mini Burger",
+        "price": 16,
+        "categorie": 2,
+        "image": "http://tutofox.com/foodapp//food/burger/burger-6.png"
+      },
+      {
+        "name": "Pizza Vegan",
+        "price": 14,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-1.png"
+      },
+      {
+        "name": "Pizza Bufalisimo",
+        "price": 14,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-2.png"
+      },
+      {
+        "name": "Pizza Haiwaiana",
+        "price": 13,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-3.png"
+      },
+      {
+        "name": "Pizza Peperoni",
+        "price": 16,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-4.png"
+      },
+      {
+        "name": "Pizza Vegan 2",
+        "price": 12,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-5.png"
+      },
+      {
+        "name": "Pizza Napolitana",
+        "price": 18,
+        "categorie": 3,
+        "image": "http://tutofox.com/foodapp//food/pizza/pizza-6.png"
+      },
+      {
+        "name": "Coca cola",
+        "price": 2,
+        "categorie": 4,
+        "image": "http://tutofox.com/foodapp//food/drink/cocacola.png"
+      },
+      {
+        "name": "Pepsi",
+        "price": 2,
+        "categorie": 4,
+        "image": "http://tutofox.com/foodapp//food/drink/pepsi.png"
+      },
+      {
+        "name": "Quatro",
+        "price": 2,
+        "categorie": 4,
+        "image": "http://tutofox.com/foodapp//food/drink/quatro.png"
+      },
+      {
+        "name": "Sprite",
+        "price": 2,
+        "categorie": 4,
+        "image": "http://tutofox.com/foodapp//food/drink/sprite.png"
+      }
+    ]
+  }
