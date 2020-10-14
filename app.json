@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "React-native",
+    "slug": "React-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+<<<<<<< HEAD
+   
+=======
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+>>>>>>> 10cccc586d11d8c279d624bcc996332390621dd5
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+<<<<<<< HEAD
+      "favicon": " "
+=======
+      "favicon": "./assets/favicon.png"
+>>>>>>> 10cccc586d11d8c279d624bcc996332390621dd5
+    }
+  }
+}
