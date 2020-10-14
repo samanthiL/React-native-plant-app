@@ -36,6 +36,7 @@
         "name": " 'Green Lady",
         "price": 24,
         "categorie": 1,
+        
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/77/pl2000027735.jpg?width=940&height=940",
         "description": "Nephrolepis exaltata"
       },
@@ -49,6 +50,7 @@
       {
         "name": "Lemon spider plant",
         "price": 21,
+        "id":5,
         "categorie": 1,
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034441.jpg?width=940&height=940",
         "description":"Chlorophytum comosum '"
