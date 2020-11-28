@@ -1,171 +1,558 @@
 {
-    "banner": [
-      "http://tutofox.com/foodapp//banner/banner-1.jpg",
-      "http://tutofox.com/foodapp//banner/banner-2.jpg",
-      "http://tutofox.com/foodapp//banner/banner-3.png"
-    ],
-    "categories": [
+  "banner": [
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnx-nqw3owz4K5TdySp4c4M0HPpVYLjKFgjQ&usqp=CAU",
+    "https://thumbs-prod.si-cdn.com/RgOBC1LNOJ_MZPqd6Z9WnyFF5kk=/fit-in/1600x0/https://public-media.si-cdn.com/filer/ad/f8/adf8f10c-d025-4d7b-b2cb-a5da52e5128f/screen_shot_2019-06-11_at_21543_pm.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-o1YrqXort2e0-7mcr7MY0DQ7EkH-jC3pOg&usqp=CAU"
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Indoor plants",
+      "color": "#fbc831",
+      "image": "https://cdn.shopify.com/s/files/1/0275/9108/2053/products/Webp.net-resizeimage_67_540x.jpg?v=1594018138"
+    },
+    {
+      "id": 2,
+      "name": "outdoor plants",
+      "color": "#9fd236",
+      "image": "https://media.ugaoo.com/catalog/product/cache/81d2f56800d33f099d2b369affd8e374/a/g/aglaonemared_45_1.png"
+    },
+    {
+      "id": 3,
+      "name": "Aurvedic plants",
+      "color": "orange",
+      "image": "https://media.ugaoo.com/catalog/product/cache/81d2f56800d33f099d2b369affd8e374/b/e/betelleaf_top_1.png"
+    }
+  ],
+  
+  "food": [
+  
       {
+        "name": "Green Lady",
         "id": 1,
-        "name": "Indoor plants",
-        "color": "#fbc831",
-        "image": "https://cdn.shopify.com/s/files/1/0275/9108/2053/products/Webp.net-resizeimage_67_540x.jpg?v=1594018138"
-      },
-      {
-        "id": 2,
-        "name": "outdoor plants",
-        "color": "#9fd236",
-        "image": "http://tutofox.com/foodapp//categories/burger.png"
-        
-      },
-      {
-        "id": 3,
-        "name": "Landscape plants",
-        "color": "orange",
-        "image": "http://tutofox.com/foodapp//categories/pizza.png"
-      },
-      {
-        "id": 4,
-        "name": "Edible Garden",
-        "color": "#f2f2f2",
-        "image": "http://tutofox.com/foodapp//categories/drink.png"
-      }
-    ],
-    "food": [
-      {
-        "name": " 'Green Lady",
         "price": 24,
         "categorie": 1,
-        
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/77/pl2000027735.jpg?width=940&height=940",
-        "description": "Nephrolepis exaltata"
+        "BotanicalName": "Nephrolepis exaltata",
+        "description": "The Green Lady Boston Fern  known plants for purifying the air and regulating humidity,A top houseplant for purifying and filtering the air.",
+        "Exposure": "Moderate light requirements, anywhere from bright, indirect sunlight to light shade",
+        "Water":" Keep the soil moist at all times. Water when the surface becomes slightly dry. Do not overwater and use lukewarm water",
+        "Soil": "Plant in a moist, rich, well-drained soil amended by compost or other organic matter.",
+        "Commonnames": "Sword fern ,elegant plant,Bostern Fern",
+        "Diseases": "In contrast to fungal infections leading to root rot, there are fungal diseases that predominantly occur in moist and hot weather conditions in weeds and ferns, such as the sword fern. "
+  
       },
+      {
+        "name": "Burgundy rubber plant",
+        "id": 2,
+        "price": 24,
+        "categorie": 1,
+        "Colorvarieties":"Dark green",
+        "Propagation":"You want to let the sap from the stem dry first before planting. Another way to propagate is by air layering.",
+        "image": "https://i.pinimg.com/originals/6e/49/de/6e49de0f4a293c1403d079eacccca5ca.jpg",
+        "BotanicalName": " Ficus elastica",
+        "description": "The Burgundy Rubber Tree is a spectacular indoor plant with thick, glossy leaves that range from a rich burgundy red to almost black. Native to the rainforests of India and South America, it can quickly adapt to common indoor temperatures.",
+         "Exposure": "This plant tolerates low light, but the leaves will fade to a light green color. However, if the plant gets less light while growing, the leaves will actually become larger!",
+       "Water":"Water when the top 50%-75% of soil becomes dry",
+        "Soil": "Well draining,Sandy Soil",
+        "Diseases": "Mealy bugs, mites, scales and aphids are a few common bugs that can find a home in your rubber plant. If caught early, you can remove these bugs by wiping them with a warm soap and water solution or an insecticidal soap."
+      },
+  
+    
       {
         "name": " Swiss cheese plant",
         "price": 20,
+        "id": 3,
         "categorie": 1,
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/77/pl2000027702.jpg?width=940&height=940",
-        "description":"Monstera deliciosa"
+        "BotanicalName": "Monstera adansonii",
+        "description": "The Swiss Cheese Plant belongs to the indoor plants, that enjoy being outside when the temperatures are warm and can also safely be planted in the garden bed. From there, it climbs arbors, walls or tree barks and fills drab places with a strong green color and, provided a little luck, even flowers. Using the right planting and care guide, you can create an optimal basis for efflorescence and a healthy life. Read here, how to satisfy the relevant demands of the Swiss Cheese Plant.A top houseplant for purifying and filtering the air.",
+        "Exposure": "Bright indirect light",
+        "Water":" Keep the soil moist at all times. Water when the surface becomes slightly dry. Do not overwater and use lukewarm water",
+        "Soil": "Peat-based potting soil with pH 5.5 to 7.0",
+        "Commonnames": "Swiss cheese plant, Adanson's monstera, Swiss cheese vine, five holes plant",
+        "Colorvarieties": "Flower colors with Purple, cream",
+        "Diseases": "In contrast to fungal infections leading to root rot, there are fungal diseases that predominantly occur in moist and hot weather conditions in weeds and ferns, such as the sword fern. "
+  
       },
       {
         "name": "Lemon spider plant",
         "price": 21,
-        "id":5,
+        "id": 4,
         "categorie": 1,
+        "plant": "An air-purifying spider plant!",
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034441.jpg?width=940&height=940",
-        "description":"Chlorophytum comosum '"
+        "description": "Chlorophytum comosum Lemon is the most popular air-purifier, indoor house plant. It has an attractive lemon green foliage. The mature plant will form plantlets on the end of its long, thin stems. The trailing stems produce small white flowers. According to a NASA clean air study, Chlorophytum comosum Lemon Plant can filter formaldehyde, xylene, and toluene from the air. ",
+        "BotanicalName":"Chlorophytum comosum Lemon",
+        "Exposure": "Keep the spider plant out of direct sunlight because it can scorch leaves and even grow well in artificial lighting.",
+        "Water":"Water regularly and  allow the top of the soil to slightly dry out before watering again.",
+        "Soil": "It grows well in a well-drained peat-moss based potting mix, such as an African violet mix.",
+        "Commonnames": " Lemon Spider Plant or Spider Plan",
+        "Colorvarieties": "The trailing stems produce small white flowers",
+        "Diseases": "Spider plants are susceptible to the mealy bug, scale, spider mites, and Aphids."
+  
+      
       },
-      {
-        "name": "White Willd Orchid'",
-        "price": 22,
-        "categorie": 1,
-        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/81/pl2000028180.jpg?width=440&height=440",
-        "description":"Phalaenopsis "
-      },
+    
       {
         "name": "Aloe vera",
-        "price": 26,
+        "price": 260,
         "categorie": 1,
+        "id": 5,
         "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034450.jpg?width=940&height=940",
-        "description":"Aloer"
+        "description": "Aloe vera is gel from the leaves of aloe plants. People have used it for thousands of years for healing and softening the skin. Aloe has also long been a folk treatment for many maladies, including constipation and skin disorders. Modern-day research into aloe vera's benefits is mixed, with some evidence showing it can cause cancer in lab animals."
+        ,
+        "BotanicalName":"Aloe barbadensis miller",
+
+        "Exposure":"Aloe loves the sun and only requires water once a week",
+         "soil":"allowing the soil to dry completely in between. Put your plant in a tall pot that keeps the leaves off the table.",
+        "Water": "Water aloe vera plants deeply, but infrequently. To discourage rot, allow the soil to dry at least 1 to 2 inches deep between waterings. Don’t let your plant sit in water",
+        "medicaltretment": "Heals burns. Due to its soothing, moisturizing, and cooling properties, aloe vera is often used to treat burns,Improves digestive health,Promotes oral health,Clears acne, Relieves anal fissures."
       },
       {
-        "name": "Elegant Polka Dots'moth orchid",
-        "price": 25,
+        "name": "Zamioculcas Plant",
+        ",price": 540,
         "categorie": 1,
-        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/03/44/pl2000034442.jpg?width=440&height=440",
-        "description":"Phalaenopsis "
+        "id": 6,
+        "BotanicalName": "Zamioculcas zamiifolia",
+        "image": "https://i.etsystatic.com/10494852/r/il/5d6e8f/2561119828/il_570xN.2561119828_omj4.jpg",
+        "description": "A flowering plant that rarely produces flowers but made popular by its wide, dark green leaves, a great indoor plant, or as an interior plant. Leaves can grow from 40-60cm long and looks smooth and shiny. Long live plant and very resistant to plant disease and insects. Like Snake Plant, ZZ Plant is also known for its air-purifying capabilities.",
+        "Exposure": "plants prefer bright, indirect light but can still survive in low-light conditions. These plants can even thrive with bright, fluorescent light.",
+        "Water": " Allow the soil to dry between watering. Don’t let your plant sit in water because it can easily cause stem and rhizome rot. Your plant can survive months without water, but will grow faster if watered more regularly. ",
+        "Colorvarieties": "",
+        "Soil": "Well-drained potting mixture with a high peat moss content.",
+        "Commonnames": " Zanzibar gem, ZZ plant, Zuzu plant, aroid palm, eternity plant or emerald",
+        "Diseases": " Aphids like the “sap” from ZZ plants. You may have an aphid infestation if you start to notice unusual yellow marks or spots on your plant. Aphids easily blend in with leaves,"
       },
       {
-        "name": "Burger Home",
-        "price": 16,
-        "categorie": 2,
-        "image": "http://tutofox.com/foodapp//food/burger/burger-1.png"
-      },
-      {
-        "name": "MegaBurger",
-        "price": 16,
-        "categorie": 2,
-        "image": "http://tutofox.com/foodapp//food/burger/burger-2.png"
-      },
-      {
-        "name": "Burger Special",
-        "price": 16,
-        "categorie": 2,
-        "image": "http://tutofox.com/foodapp//food/burger/burger-3.png"
-      },
-      {
-        "name": "Burger Cheese",
-        "price": 16,
-        "categorie": 2,
-        "image": "http://tutofox.com/foodapp//food/burger/burger-4.png"
+        "name": "Zebra plant,",
+        "price": 540,
+        "categorie": 1,
+        "id": 7,
+        "BotanicalName": "Aphelandra squarrosa",
+        "image": "https://www.thespruce.com/thmb/xnH0p9eveHzH-A12jCPwKCj4v98=/2138x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-491775628-9c145b19ac7e4e7c82b7b9c5a88f117e.jpg",
+        "description": " Coleus plants have an incredible range of natural color variation, but enthusiasts and breeders have taken them a step further with colors from bright chartreuse to hot pink to velvety near-black, and any number of combinations. There are plants with solid-colored foliage, and ones with heavily contrasted veining, stripes or splotches. Coleus leaves range from one to six-inches long, and also come in many different shapes and sizes. Coleus plants also have unique, square semi-succulent stems.",
+        "Exposure": "Bright, indirect light ",
+        "Water": "Water regularly. Coleus are thirsty plants, so keep the soil moist. However, avoid overly damp soil, as this can cause leaf drop. We recommend using self-watering containers.",
+        "Colorvarieties": "Red, white, yellow",
+        "Soil": "Well-drained potting mixture with a high peat moss content.",
+        "Commonnames": " Zebra plant, Saffron spike zebra plant",
+        "Diseases": "Whiteflies, aphids, mealybugs, fungus gnats. Also susceptible to botrytis blight, leaf spots, stem rot and root rot"
       },
   
+  
       {
-        "name": "Mini Burger",
-        "price": 16,
+        "name": "African Violet",
+        "price": 540,
+        "categorie": 1,
+        "id": 8,
+        "BotanicalName": " Saintpaulia spp.",
+        "image": "https://img.crocdn.co.uk/images/products2/pl/20/00/02/81/pl2000028181_card3_lg.jpg",
+        "description": "African violets are meant to be grown indoors year round. Although some gardeners do take them outside when the temperatures are warm.Place them throughout the house to enjoy their colors and velvety texture throughout the year.Once you get in a regular routine of taking care of African violets, you’ll find they grow very easily. All of their basic needs need to be met though, or they won’t bloom.",
+        "Exposure": "Moderate to bright, indirect, indoor light",
+        "Water": " Keep soil moist to dry, and allow soil around roots to dry out before watering to encourage blooming. ",
+        "Colorvarieties": "Blue, Pink, Purple, Red, White",
+        "Propagation":"Leaf cutting- remove a healthy leaf along with its stem from the base of the plant. Trim the stem down to about 1-1.5 inches (2.5-3.8 cm.).Place the cutting in a one-inch deep (2.5 cm) hole in potting soil. Press the soil firmly around it and water thoroughly with tepid water",    
+        "Soil": "Loamy"
+      },
+  
+  
+  
+     
+      {
+        "name": "Broadleaf Lady Palm Care",
+        "price": 540,
+        "categorie": 1,
+        "id": 9,
+        "BotanicalName": "Rhapis excelsa",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMDoJ3uePLiw2jlsdfdUQVumvtV816OxT-qg&usqp=CAU",
+        "Commonnames":"little lady palm,golden chlorophyll",
+        "Exposure": "This palm enjoys indirect sunlight. Full sunlight will injure the leaves.",
+        "Water": "Water once or twice a week, allowing soil to dry out between waterings. Increase frequency with increased light. Too much water can lead to root rot and shock.",
+      
+        "Diseases":"Fusarium oxysporum​,Pythium,Rhizoctonia,Penicillium (also known as pink rot)",
+        "Propagation":"You should wait to divide it until the root system has either grown to break its clay pot or has simply become root bound.",
+  
+        "description": " The Lady Palm grows as multiple shoots from the soil, which are each topped with their own palm frond. Indoor growth rates for each frond are between 8-12 inches (20-30 cm) a year. If left un-pruned and wild, this plant will grow to more than 14 feet (4 meters) tall. As each frond ages, it will increase in size and gain additional leaves.",
+        "Soil": "lady palms will tolerate most different types of soil (clay, sandy, loamy)"
+      },
+  
+  
+      {
+        "name": "Aluminum Plant ",
+        "price": 540,
+        "categorie": 1,
+        "id": 10,
+        "BotanicalName": "Pilea Cadierei",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_I8wm3G5Xrs0soJzJf23VG-9c_mhw39nEsA&usqp=CAU",
+        "Commonnames":"little lady palm,golden chlorophyll",
+        "Exposure": " Do not permit this plant to be exposed to overly bright or direct sunlight. ",
+        "Water": " Keep soil lightly moist spring through fall. Overwatering will cause leaves to wilt or fall off",
+        "Diseases":"",
+        "Propagation":" propagated through cuttings. Take the cuttings in the early spring. Allow them to rest in a water source for one week, or until roots form. ",
+        "description": "Aluminum Plant is a fast-growing perennial plant. It spreads rapidly in its tropical native habitat, where it grows as a groundcover. Tiny, light-colored flowers sometimes appear in summer. Don't be afraid to pinch them off. They're insignificant compared to the foliage",
+        "Soil": "Combine one part clean sandy soil mixture with two parts peat to provide the required soil content for continued health."
+      },
+  
+  
+      {
+        "name": "Anthurium",
+        "price": 540,
+        "categorie": 1,
+        "id": 11,
+        "BotanicalName": "Anthurium andraeanum",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3j5WN9DsoMBRkLx0vCO47eHm2lIHcOqXpTw&usqp=CAU",
+        "Commonnames":"Anthurium, tailflower, flamingo flower, laceleaf",
+        "Exposure": "These plants cannot tolerate direct light however, as this can burn the leaves. They grow best in bright, indirect light",
+        "Water": "Make sure to water your anthurium plant regularly, but don’t over water. Only water your anthurium when the soil is dry to the touch",
+        "Diseases":" fungal rots, blights, or leaf spots may occur",
+        "Propagation":" propagated from cuttings. Select a stem at least 6 inches long with two or three sets of leaves. Dip the cut end of the stem in rooting hormone, then bury it in potting mix up to the first set of leaves",
+        "description": "Aluminum Plant is a fast-growing perennial plant. It spreads rapidly in its tropical native habitat, where it grows as a groundcover. Tiny, light-colored flowers sometimes appear in summer. Don't be afraid to pinch them off. They're insignificant compared to the foliage",
+        "Soil": "Coarse, well-draining potting. An orchid mix with additional sand and peat moss mixed in, makes a perfect potting mix for anthuriums.",
+        "Colorvarieties":"Red, pink, or white, with contrasting spadex"
+  
+      },
+  
+  
+  
+      {
+        "name": "Green Velvet Alocasia",
+        "id": 12,
+        "categorie":1,
+        "Diseases":"Botrytis Blight-Leaves, especially those near the soil surface,rot and become covered with gray fungal growth as do fading flowers, Root rot-Dark brown to black lesions form on stems and branches,causing the portions above to wilt and die back",
+        "image": "https://www.floraqueen.com/blog/wp-content/uploads/2020/02/shutterstock_368451224.jpg",
+        "BotanicalName": "Catharanthus roseus, formerly Vinca rosea or Lochnera rosea.",
+        "description": "Annual vinca (Catharanthus roseus) is a tropical perennial that is grown as an annual in most regions. It has flowers and foliage that resemble those of impatiens, but rather than being a shade lover, annual vinca is a perfect choice for sunny locations. Also known as Madagascar periwinkle, these aren't the newest or flashiest annual flowers on the gardening scene, but recent cultivar developments warrant a closer examination of this common bedding plan",
+        "Exposure": "Full sun to part shade",
+        "Water":"A moderate weekly watering is ideal, but do not water at all if your garden is getting regular rainfall.",
+        "Soil": "Fertile, well-drained Sandy loam soil with PH 6.0 to 7.0",
+        "Commonnames": "Rose Periwinkle, Vinca, Rosy periwinkle, Madagascar periwinkle, Cape periwinkle, Old maid",
+        "Colorvarieties":"Pink, Purple, Red, White",
+        "Propagation":"Grown from seed and transplanted, or propagated by cuttings or micro-propagated plants",
+        "medicaltretment" :"Diabetes,Cancer,Increasing blood circulation: Despite serious safety concerns, periwinkle is used for “brain health” (increasing blood circulation in the brain, supporting brainmetabolism, increasing mental productivity, preventing memory and concentration problems and feebleness, improving memory and thinking ability, and preventing early aging of brain cells).Sore throat,Low blood pressure: Periwinkle can lower blood pressure."
+      },
+      {
+        "name": "Queen tears",
+        "price": 540,
+        "categorie": 1,
+        "id": 13,
+        "BotanicalName": "Anthurium andraeanum",
+        "image": "https://i.pinimg.com/originals/f2/ba/7b/f2ba7bebc2ce4bbc9b4980e11b9fba12.jpg",
+        "Commonnames":"Anthurium, tailflower, flamingo flower, laceleaf",
+        "Exposure": " bright, indirect sunlight the remainder of the year",
+        "Water": "Make sure to water your anthurium plant regularly, but don’t over water. Only water your anthurium when the soil is dry to the touch",
+        "Diseases":" fungal rots, blights, or leaf spots may occur",
+        "Propagation":" propagated from cuttings. Select a stem at least 6 inches long with two or three sets of leaves. Dip the cut end of the stem in rooting hormone, then bury it in potting mix up to the first set of leaves",
+        "description": "Aluminum Plant is a fast-growing perennial plant. It spreads rapidly in its tropical native habitat, where it grows as a groundcover. Tiny, light-colored flowers sometimes appear in summer. Don't be afraid to pinch them off. They're insignificant compared to the foliage",
+        "Soil": "When grown as a house plant, this plant requires an orchid or bromeliad soil mixture",
+        "Colorvarieties":"Red, pink, or white, with contrasting spadex"
+  
+      },  
+      {
+        "name": "Bunny rubber",
+        "price": 540,
+        "categorie": 1,
+        "id": 14,
+        "BotanicalName": "Peperomia obtusifolia",
+        "image": "https://uaelandscapes.com/wp-content/uploads/2020/06/1200px-Peperomia_obtusifolia_3-OB9.jpg",
+        "Commonnames":"Baby rubber plant, American rubber plant, Pepper face plan",
+        "Exposure": "Medium to bright indirect light but can tolerate low, indirect light. Not suited for intense, direct sun. ",
+        "Water": "Water once or twice a week, allowing soil to dry out between waterings. Increase frequency with increased light. Too much water can lead to root rot and shock.",
+      
+        "Diseases":"Dull, fading leaves(Too much direct sun), Wilting(Under watered), Wilting, plus leaf loss(Overwatered),Browning of leaf edges or tips(Cold drafts)",
+        "description": " The Peperomia Obtusifolia (or Peperomia Green) is characterized by its thick upright stems with glossy, oversized leaves. It stores water in its thick leaves, which shrivel in drought and plump when water is available. Leaves are typically dark green, but can also have white or yellow variegation that resembles marbling.",
+        "Propagation":"The baby rubber plant can also propagate with leaf cuttings, although variegated types may lose the variegation.",    
+        "Colorvarieties": "The leaves of the baby rubber plant are typically dark green though some have leaves with marbled white or yellow streaks.",
+        "Soil": " rich loamy potting soil."
+      },
+  
+ 
+      {
+        "name": "Hydrangeas",
+        "id":19,
+        "price": 25,
         "categorie": 2,
-        "image": "http://tutofox.com/foodapp//food/burger/burger-6.png"
+        "Diseases":"however, many species may be susceptible to some bud blight, bacterial wilt, leaf spot, or mildew",
+        "image": "https://gilmour.com/wp-content/uploads/2018/03/hydrangea-care.jpg",
+        "BotanicalName": "Hydrangea macrophylla",
+        "description": "Hydrangeas can flourish in sun or shade. Huge bouquets of hydrangea flowers, which vary from mophead to lacecap types, show beauty from summer to fall. Varieties of hydrangea differ in size, flower shape, color, and bloom time.",
+        "Exposure": "Most hydrangea plants bloom best in part shade, but some will tolerate full shade or full sun. The amount of sun they can handle depends on your location—in areas further north they can take more sun, while further south they prefer just a few hours of morning sunlight. ",
+        "Water":"Let the soil dry between waterings. During winter, reduce watering to monthly, or whenever the soil is dry to the touch. ",
+        "Soil": "All like well-drained soil that is rich in organic matter.",
+        "Commonnames": "Snake plant, mother-in-law's tongue, viper's bowstring hemp, and St. George's sword",
+         "Colorvarieties":"Most bloom in shades of blue, purple or pink, but there are also white, green, and even some red varieties."
       },
       {
-        "name": "Pizza Vegan",
-        "price": 14,
+        "name": "Coleus",
+        "price": 540,
+        "categorie": 2,
+        "id":20,
+        "BotanicalName": " Coleus blume",
+        "image": "https://www.plantsguru.com/image/cache/data/Green%20Plants/Coleus/plantsguru-coleus-tricolor-800x800.jpg",
+        "description": " Coleus plants have an incredible range of natural color variation, but enthusiasts and breeders have taken them a step further with colors from bright chartreuse to hot pink to velvety near-black, and any number of combinations. There are plants with solid-colored foliage, and ones with heavily contrasted veining, stripes or splotches. Coleus leaves range from one to six-inches long, and also come in many different shapes and sizes. Coleus plants also have unique, square semi-succulent stems.",
+        "Exposure": "Full sun to shade, depending on variety. ",
+        "Water": "Water regularly. Coleus are thirsty plants, so keep the soil moist. However, avoid overly damp soil, as this can cause leaf drop. We recommend using self-watering containers.",
+        "Colorvarieties": " They have some of the most stunningly colored foliage—in combinations of green, yellow, pink, red, maroon",
+        "Soil": "Any average, moist, but well-drained soil suits them.",
+        "Commonnames": " Painted Nettle",
+        "Diseases": "Keep an eye out for mealybugs and spider mites. Rutgers gives coleus plants as ‘C’ rating on their deer resistance list, stating they’re occasionally severely damaged."
+      },
+      {
+        "name": "Bougainvillea",
+        "price": 540,
+        "categorie": 2,
+        "id": 21,
+        "Commonnames": "Bougainvillea",
+      
+        "BotanicalName": "Bougainvillea spectabilis",
+        "image": "https://www.gardeningknowhow.com/wp-content/uploads/2020/06/bougainvillea-color-400x300.jpg",
+        "description": "Gardeners have been overwintering geranium plants for years. You can allow them to go dormant until spring, but if you have a bright south-facing window, you can have repeat blooms all winter. Geraniums that have been growing outdoors in pots make the best candidates​ because their roots will not be disturbed. Bring them in before frost and give the plants a light trim. ",
+        "Exposure": "Bougainvillea thrives in full sun. Some afternoon shade in extremely hot weather may be beneficial. ",
+        "Water": "Water your bougainvillea with a good soaking and then let it dry out. If they are left with wet feet, it may cause their bracts and foliage to drop. Frequent, short watering can result in a shallow and weak root system. The amount and frequency of watering should be adjusted for your climate. R&G Bougainvillea gives this handy guideline for watering: “Few leaves, but some weak bracts—not enough water. Lots of green leaves, but little color—too much water. A combination of healthy leaves and bracts—just right.",
+        "Colorvarieties": "  red, purple, magenta, hot pink, light pink, orange, apricot and white. ",
+        "Soil": "Well-drained acidic soil is best for bougainvillea. If soil is too alkaline, chlorosis (pale leaves) can occur",
+        "Diseases": "Although generally quite disease resistant, bougainvillea plants may be troubled by aphids, leafminers, scale, snails & slugs, spider mites and whitefly. The best way to keep your bougainvillea healthy is to keep the foliage and area around the plant dry and allow good air flow. Promptly remove any damaged, dead or infected branches and foliage"
+      },
+      {
+        "name": " Caladium",
+        "price": 540,
+        "categorie": 2,
+        "id": 22,
+        "BotanicalName": "Caladium bicolor",
+        "image": "https://cdn.britannica.com/02/142302-050-545D07A6/Caladium-cultivar-Red-Ruffles.jpg",
+        "description": "Gardeners have been overwintering geranium plants for years. You can allow them to go dormant until spring, but if you have a bright south-facing window, you can have repeat blooms all winter. Geraniums that have been growing outdoors in pots make the best candidates​ because their roots will not be disturbed. Bring them in before frost and give the plants a light trim. ",
+        "Exposure": "Bougainvillea thrives in full sun. Some afternoon shade in extremely hot weather may be beneficial. ",
+        "Water": "Provide enough moisture throughout the growing season to keep the soil evenly moist. If you allow the soil to dry out, the leaves may yellow and drop. Apply a layer of mulch around your plants to help retain moisture.",
+        "Colorvarieties": "  red, purple, magenta, hot pink, light pink, orange, apricot and white. ",
+        "Soil": "Plant in a moist, rich, well-drained soil amended by compost or other organic matter.",
+        "Commonnames": "Caladium, angel wings",
+        "Diseases": "Although generally quite disease resistant, bougainvillea plants may be troubled by aphids, leafminers, scale, snails & slugs, spider mites and whitefly. The best way to keep your bougainvillea healthy is to keep the foliage and area around the plant dry and allow good air flow. Promptly remove any damaged, dead or infected branches and foliage"
+      },
+      {
+        "name": "Donkey tails",
+        "price": 540,
+        "categorie": 2,
+        "id": 23,
+        "BotanicalName": "Sedum morganianum",
+        "image": "https://www.capegazette.com/sites/capegazette/files/2018/01/field/image/garden-donkey-tail-plant.jpg",
+        "description": " Coleus plants have an incredible range of natural color variation, but enthusiasts and breeders have taken them a step further with colors from bright chartreuse to hot pink to velvety near-black, and any number of combinations. There are plants with solid-colored foliage, and ones with heavily contrasted veining, stripes or splotches. Coleus leaves range from one to six-inches long, and also come in many different shapes and sizes. Coleus plants also have unique, square semi-succulent stems.",
+        "Exposure": "Full sun ",
+        "Water": "Water regularly. Coleus are thirsty plants, so keep the soil moist. However, avoid overly damp soil, as this can cause leaf drop. We recommend using self-watering containers.",
+        "Colorvarieties": "Red, white, yellow",
+        "Soil": "Loamy, sandy .",
+        "Commonnames": " Donkey's tail, burro's tail, lamb's tail",
+        "Diseases": "Sedums can be susceptible to disease, and younger plants are more affected. Cleaning up dead plant material and clearing weeds will go a long way in keeping your plants healthy."
+      },
+    
+      {
+        "name": "Neem",
+        "id": 30,
+        "price": 245,
+        "categorie":3,
+        "Diseases":"Roots rot,Stems and twigs,Leaf spot disease is caused by a pathogen namely Cercospora sp., Laspeyresia koenigiana and Helopeltis antoni are the major pests of neem tree. Use of fungicides and pesticides helps in preventing the attack by fungi and pests",
+        "image": "https://i.pinimg.com/originals/4f/b2/c6/4fb2c67aea9c11ad1acdee78879581ef.jpg",
+        "BotanicalName": "Azadirachta indica",
+        "description": "Neem has a rounded spreading crown and a straight trunk with thick grey bark. The 35cm long leaves are alternate with 7-17 leaflets each 6-8 cm long. Flowers are small, white, sweetly-scented, borne in terminal clusters during the months of March-May. Ellipsoid, fleshy fruits change colour from green to yellow when they ripen, about 1.5 cm in size, contains one seed. Fruit strewn on the ground is a common sight during the months of August- September.",
+        "Exposure": "Full sun to part shade",
+        "Water":"Dry to medium",
+        "Soil": "moderately fertile, well-drained soil. If planted in clay soil or an area that doesn’t drain well, they may not perform as expected.",
+        "Colorvarieties":" White",
+        "Propagation":" It can be planted using seeds, seedlings, saplings, root suckers, or tissue culture.",
+        "Commonnames": " neem, nimtree or Indian lilac,kohomba",
+        
+      "medicaltretment":" Neem is used to reduce insulin requirements without altering blood glucose levels,It heals wounds and used in vomiting, skin diseases, cough, fever, worm infestation,The neem leaves help in the treatment of neuromuscular pains,The seeds, leaves and dry neem cake are active ingredients in mosquito repellant coils,neem oil is highly medicinal, anti-dermatonic and used in aromatherapy. It is one of the promising resources for biodiesel production."
+      },
+      {
+        "name": "Henna",
+        "id": 31,
         "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-1.png"
+        "Diseases":"  Aphids-Tiny, pinhead-sized insects, varying in color depending on the type. Will cluster on stems and under leaves, sucking plant juices.Cherry Fruit Fly- Larvae are yellowish-white grubs. Traps are an option for luring adults.Moths-Damage first appears on vegetative growth, and left untreated will eventually infest fruit. Larvae tunnel in through the stem and often exit near the pit.LeafhopperSmall, active, slender-winged insect appearing in various colors. Usually found on undersides of leaves, Powdery Mildew-Whitish-gray powdery mold or felt-like patches on buds, young leaves, and twigs. Leaves may crinkle and curl upward. New shoots are stunted",
+      
+        "image": "https://cf.shopee.sg/file/cd0963637b92d83f2ab89a1a2156b486",
+        "BotanicalName": "Lawsonia inermis",
+        "description": "Winter cherry is an herb. The ripened fruit is used to make medicine. Don't confuse this herb with ashwagandha, which is also known as winter cherry. People take winter cherry to treat arthritis and gout; and to increase urine flow (as a diuretic) in kidney and bladder conditions",
+       
+       "Exposure": "A lover of bright light, and some direct sunlight (not too much). Placed near a window that receives day time sun is advised.The winter cherry prefers cool temperatures of approximately 60-70°F (15-21°C) and 50-60°F (10-15°C) during winter.",
+      
+        "Water":"Keep the soil moist to touch and water once the soil feels very slightly dry. At the end of winter until the start of spring allow the soil to become fairly dry before watering.",
+      
+        "Soil": "Fertile, well-drained or dry soil in a sunny position.The plant is tolerant of poor, stony and sandy soils",
+      
+        "Commonnames": "Hina, Henna, Jamaica mignonette, Mignonette tree",
+      
+      "Colorvarieties":"Brown",
+      
+      "Propagation":"Grown from seed and transplanted, or propagated by cuttings or micro-propagated plants",
+      
+      "medicaltretment" :"Regulated Blood Pressure,Anti-aging Propertie,Improved Nail Quality,Headache Reliever,Wound Healing,Cure Fever,Anti-inflammatory Capacity,Reduced Sleep Issues,Hair Color,Detoxification"
       },
+
+
       {
-        "name": "Pizza Bufalisimo",
-        "price": 14,
+        "name": "Coriander",
+        "id": 32,
         "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-2.png"
-      },
+        "image": "https://i2.wp.com/elitechdrip.com/wp-content/uploads/2020/02/grow-coriander-at-home.jpg?fit=800%2C533&ssl=1",
+        "BotanicalName": "Coriandrum sativum",
+        "description": "Coriander has recently become a very popular herb to grow at home.Coriander is sown from late March until early September. Grown mainly for its green leaves, which are sometimes know as cilantro, and also its spicy seeds, this herb is a must in salads and as a fragrant green addition to Indian, Thai and Chinese curries. The seeds are a vital ingredient of curry powder.",
+        "Exposure": "Partial shade, Full sun",
+        "medicaltretment":", coriander leaves are rich in Vitamin C, Vitamin K, and protein. It is antiseptic, antioxidant and anti-inflammatory in nature. It helps in reducing the level of bad LDL cholesterol deposition raise the levels of healthy HDL cholesterol preventing multiple cardiovascular issues.roper assimilation and absorption of sugar are regulated in the body.",
+        "Water":"Water the plants when the soil is dry to the touch. Water thoroughly until the water comes out the drainage holes. Keep the soil moist and not soaked.",
+        "Soil": " Soil moist but well-drained and  Chalky, Clay, Loamy andSandy  soil types best for grow plant. If your soil needs to be improved add good garden compost or well rotted manure.",
+        "Commonnames": " Chinese parsley,cilantro",
+        "Diseases":"Bacterial leaf spot,Wilt disease,Stem gall disease,Powdery mildew",
+        "Sowing" : "Pre-soak the seeds overnight. Space the seeds 3 to 4 inches apart while sowing in the container. You can also sprout the seeds before sowing. If flowers develop remove them immediately – this ensures the plants focus their energy on growing new leaves"
+        
+        
+        },  
+  
+  
       {
-        "name": "Pizza Haiwaiana",
-        "price": 13,
+        "name": "Mint ",
+        "id": 33,
         "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-3.png"
-      },
-      {
-        "name": "Pizza Peperoni",
-        "price": 16,
-        "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-4.png"
-      },
-      {
-        "name": "Pizza Vegan 2",
-        "price": 12,
-        "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-5.png"
-      },
-      {
-        "name": "Pizza Napolitana",
-        "price": 18,
-        "categorie": 3,
-        "image": "http://tutofox.com/foodapp//food/pizza/pizza-6.png"
-      },
-      {
-        "name": "Coca cola",
-        "price": 2,
-        "categorie": 4,
-        "image": "http://tutofox.com/foodapp//food/drink/cocacola.png"
-      },
-      {
-        "name": "Pepsi",
-        "price": 2,
-        "categorie": 4,
-        "image": "http://tutofox.com/foodapp//food/drink/pepsi.png"
-      },
-      {
-        "name": "Quatro",
-        "price": 2,
-        "categorie": 4,
-        "image": "http://tutofox.com/foodapp//food/drink/quatro.png"
-      },
-      {
-        "name": "Sprite",
-        "price": 2,
-        "categorie": 4,
-        "image": "http://tutofox.com/foodapp//food/drink/sprite.png"
-      }
-    ]
-  }
+        "Diseases":" Powdery mildew,Rust,Leaf spot,Anthracnose,Stem canker,Mice dislike the smell of peppermint",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQoMOf47yLgBsGhsW09KN10dyiHJItlUKvctg&usqp=CAU",
+        "BotanicalName": "Mentha genus",
+        "description": "Minimal care is needed for mint. For outdoor plants, use a light mulch. This will help keep the soil moist and keep the leaves clean. For indoor plants, be sure to water them regularly to keep the soil evenly moist.",
+        "Exposure": "Partial shade",
+      "medicaltretment":"Immunity,Improves Digestion,Relieves Headache,Promotes Weight Loss,Combat Stress And Depression,Assists Breastfeeding,. The rich and distinct flavour and smell of this essential oil can ease stress and refresh the body and mind",
+        "Water":"if the soil feels dry, add water. It is probably best to water the plants in the morning so that they have plenty of moisture by the time the hotter afternoon sun hits.",
+        "Soil": "Rich and moist",
+        "Commonnames": "Mint, peppermint, and spearmint",
+         "types":" Mentha piperita (Peppermint): ,Mentha piperita citrata (Orange mint): ,Mentha suaveoloens (Apple mint): I,Mentha suaveolens variegata (Pineapple mint):"
+      ,"Colorvarieties":"Purple, pink, or white",
+      "Propergation":"Cuttings of mint will root easily in soil or water and mature plants can be divided and transplanted. And, you can always start new plants from seed. Although, most mint plants are hybrids and will not grow true from seed.Sow outdoors in late spring or start seed indoors about eight to 10 weeks before the last frost. Keep soil moist until the seed germinates. Mint seed germinates in 10 to 15 days. Seed-grown plants should reach harvestable size within two months."
+      
+      },     
+{
+  "name": "Indian gooseberry",
+  "id": 34,
+  "categorie": 3,
+  "Diseases":"Lastly its prone to Pests like caterpillar and mealy bugs. So keep a watch and eliminate these pests.In diseases, it can be infected by rust. Pest like caterpillars, mealybugs.",
+
+  "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/10/indian-gooseberry-1296x728-header.jpg?w=1155&h=1528",
+  "BotanicalName": " Phyllanthus emblica",
+  "description": "Amla is used in traditional Indian subcontinent recipes, in various cuisines and Ayurveda for its medicinal values. All parts of Amla tree are useful, its leaves, roots, fruits, seeds, bark, and flowers are used to prepare a variety of items like juice, chutney, jam, infusions, lotions, concentrates, herbal teas and other natural concoctions.Growing amla tree from seed takes around five years to produce fruits. Fruits are hard and glossy, of dull green color and generally appear from January to March in tropics",
+ "Exposure": "The light requirements are similar to any other plant and about 4 to 6 hours sunlight is sufficient for Amla tree.",
+  "Water":" Regular and good watering is essential at the young age and also in summer. Once the tree gets established it doesn’t require regular and frequent watering.  In any case, water stagnation must be avoided.",
+  "Soil": "Well-drained loam rich in organic matter is required for growing amla tree. A pH level can be between slightly acidic to slightly alkaline",
+  "Commonnames": "Aamalaki, Amalaki, Amblabaum, Amla, Amla Berry",
+"Propergation":"It can be started from seeds, from budding or air layering. But the better option is to buy a grafted tree from a nursery.",
+"Colorvarieties":"The Amla is a richest source of Vitamin C and its spherical, light greenish yellow, quite smooth and hard on appearance",
+"Propagation":"It can be started from seeds, from budding or air layering. But the better option is to buy a grafted tree from a nursery."
+
+
+},
+
+{
+  "name": "Winter Cherry",
+  "id": 35,
+  "categorie": 3,
+  "Diseases":"  Aphids-Tiny, pinhead-sized insects, varying in color depending on the type. Will cluster on stems and under leaves, sucking plant juices.Cherry Fruit Fly- Larvae are yellowish-white grubs. Traps are an option for luring adults.Moths-Damage first appears on vegetative growth, and left untreated will eventually infest fruit. Larvae tunnel in through the stem and often exit near the pit.LeafhopperSmall, active, slender-winged insect appearing in various colors. Usually found on undersides of leaves, Powdery Mildew-Whitish-gray powdery mold or felt-like patches on buds, young leaves, and twigs. Leaves may crinkle and curl upward. New shoots are stunted",
+
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Ybsq2oIAI20oT-NLxWJEaHswcVBGIXHYGA&usqp=CAU",
+  "BotanicalName": "  solanum capsicastrum",
+  "description": "Winter cherry is an herb. The ripened fruit is used to make medicine. Don't confuse this herb with ashwagandha, which is also known as winter cherry. People take winter cherry to treat arthritis and gout; and to increase urine flow (as a diuretic) in kidney and bladder conditions",
+ 
+ "Exposure": "A lover of bright light, and some direct sunlight (not too much). Placed near a window that receives day time sun is advised.The winter cherry prefers cool temperatures of approximately 60-70°F (15-21°C) and 50-60°F (10-15°C) during winter.",
+
+  "Water":"Keep the soil moist to touch and water once the soil feels very slightly dry. At the end of winter until the start of spring allow the soil to become fairly dry before watering.",
+
+  "Soil": "Most well draining soil-less potting mixes will suffice.",
+
+  "Commonnames": "Bladder Cherry,Chinese Lantern,Ground Cherry,Strawberry Tomato,Winter Cherry",
+
+"Colorvarieties":"Berries begin green in color, then turn yellowish, orange and red, and are the main attraction rather than the tiny flowers.berries that look just like small tomatoes.",
+
+"Propagation":"The solanum capsicastrum can be propagated by seeds (early spring) or stem cuttings taken (late winter)",
+
+"medicaltretment" :"Strengthens immunity,help regulate blood sugar which aids in suppressing sugar cravings, cancer treatment and prevention,reduce the negative effects of stress, slow tumour growth, treat anxiety and insomnia, treat various diseases associated with nerve tissue damage related to the destructive molecules known as free radicals,"
+
+},
+
+
+{
+  "name": "Annual vinca",
+  "id": 29,
+  "categorie": 3,
+  "Diseases":"Botrytis Blight-Leaves, especially those near the soil surface,rot and become covered with gray fungal growth as do fading flowers, Root rot-Dark brown to black lesions form on stems and branches,causing the portions above to wilt and die back",
+  "image": "https://www.floraqueen.com/blog/wp-content/uploads/2020/02/shutterstock_368451224.jpg",
+  "BotanicalName": "Catharanthus roseus, formerly Vinca rosea or Lochnera rosea.",
+  "description": "Annual vinca (Catharanthus roseus) is a tropical perennial that is grown as an annual in most regions. It has flowers and foliage that resemble those of impatiens, but rather than being a shade lover, annual vinca is a perfect choice for sunny locations. Also known as Madagascar periwinkle, these aren't the newest or flashiest annual flowers on the gardening scene, but recent cultivar developments warrant a closer examination of this common bedding plan",
+ "Exposure": "Full sun to part shade",
+
+  "Water":"A moderate weekly watering is ideal, but do not water at all if your garden is getting regular rainfall.",
+
+  "Soil": "Fertile, well-drained Sandy loam soil with PH 6.0 to 7.0",
+
+  "Commonnames": "Rose Periwinkle, Vinca, Rosy periwinkle, Madagascar periwinkle, Cape periwinkle, Old maid",
+
+"Colorvarieties":"Pink, Purple, Red, White",
+
+"Propagation":"Grown from seed and transplanted, or propagated by cuttings or micro-propagated plants",
+
+"medicaltretment" :"Diabetes,Cancer,Increasing blood circulation: Despite serious safety concerns, periwinkle is used for “brain health” (increasing blood circulation in the brain, supporting brainmetabolism, increasing mental productivity, preventing memory and concentration problems and feebleness, improving memory and thinking ability, and preventing early aging of brain cells).Sore throat,Low blood pressure: Periwinkle can lower blood pressure."
+},
+{
+  "name": "Marigolds",
+  "id": 40,
+  "price": 245,
+  "categorie":3,
+  "types":"Tagetes patula,Tagetes erecta ,Tagetes tenuifolia",
+  "Diseases":" aphids, thrips, whiteflies, Mexican bean beetles, squash bugs, tomato hornworms and nematode",
+  "image": "https://gilmour.com/wp-content/uploads/2019/05/How-to-Grow-Marigolds.jpg",
+  "BotanicalName": "Tagetes spp.",
+  "description": "Marigolds are a favorite, no-fuss annual that can bring the color of sunshine to your garden, as well as butterflies, bees, ladybugs, and other beneficial insects. Give them full sun and some well-draining soil and watch them bloom from late spring until fall.",
+  "Exposure": "Full sun ",
+  "Water":"Allow the soil to dry somewhat between waterings, but do water regularly in high heat or dry weather. Marigolds growing in containers should be watered daily as containers dry out quickly.",
+  "Soil": "moderately fertile, well-drained soil. If planted in clay soil or an area that doesn’t drain well, they may not perform as expected.",
+ "Propagation":"To save seeds, allow the flowerheads to fade and dry intact on the plant. When fully dried, remove the petals and shake out the seeds. Not all flowerheads will produce seeds, but most should. Remember that hybrids will not come true from saved seed."
+  ,"Commonnames": " Caltha, Ganda, Gols bloom, Garden Marigold, Gold bloom, Holligold",
+   "Colorvarieties":" orange and yellow; some with highlights of red, gold, copper or brass",
+"medicaltretment":" : Marigold is used for stomach upset, ulcers, menstrual period problems, eye infections, inflammations, and for wound healing. It is antiseptic. If the Marigold flower is rubbed on the affected part, it brings relief in pain and swelling caused by a wasp or bee. A lotion made from the flowers is most useful for sprains and wounds and a water distilled from them is good the sore eyes. The infusion of the freshly gathered flowers is beneficial in fever. Marigold flowers are mostly in demand foe children ailment. Externally it is used in the treatment of alopecia. Internally it is used to treat bladder and kidney problems, blood in the urine, uterine bleeding and many more."
+},
+
+
+{
+  "name": "Lemon Balm",
+  "id": 40,
+  "price": 245,
+  "categorie":3,
+  "Diseases":"No serious insect or disease problems. Powdery mildew, leaf spot, leaf blight and gray mold may occur. Plants will spread by self-seeding, but are generally not considered to be too aggressive.",
+  "image": "https://images-na.ssl-images-amazon.com/images/I/61vKAFgLB5L._AC_SX450_.jpg",
+  "BotanicalName": "Melissa officinalis  ",
+  "description": "Lemon balm (Melissa officinalis) is an herb in the mint family. It is often used for culinary purposes to make teas, marinate chicken or fish, or flavor baked foods and jams. Lemon balm is also believed to treat a range of medical disorders affecting the digestive tract, nervous system, and liver.1﻿ Its use dates back to the 14th century when Carmelite nuns used it to make an alcoholic tonic popularly known as Carmelite water."
+  ,"Exposure": "Full sun to part shade",
+  "Water":"Dry to medium",
+  "Soil": "well-drained soils",
+  "Colorvarieties":" Flower Bloom on June to August,Bloom Description: White to pale yellow",
+  "Propagation":" Lemon balm can also be propagated by dividing old clumps in spring or early fall, or from cuttings. Replace the plants (if they have lived) after 3-4 seasons, as they generally decline at this time. It may be grown as an annual in areas where it does not survive the winter.",
+  "Commonnames": " Melissa, sweet balm, honey plant, balm mint, garden balm, English balm, and heart’s delight, common balm, blue balm, dropsy plant, honey plant, Herzkraut, citronelle, cytria, cedronella,",
+  
+"medicaltretment":" to treat anxiety, gastric complaints (especially associated with stress), hysteria, melancholia, nervous palpitations, migraine, headaches, and high blood pressure,Diseases that interfere with thinking (dementia). It's unclear if lemon balm helps reduce agitation in people with dementia. ,Depression"
+},
+{
+  "name": "Bunny Ears",
+  "price": 540,
+  "categorie": 1,
+  "id": 15,
+  "Diseases":"Stem base rot: Naturally a desert plant, the Polka-dot Cactus requires only occasional watering,Insects,Brown patches",
+  "BotanicalName": "Opuntia microdasys",
+  "image": "https://i.pinimg.com/originals/45/80/ae/4580aef4e92ec42ba651004a456c80d6.jpg",
+  "description": "Easy to care for but we advise you wear gloves when handling this plant to avoid skin coming into contact with the hairs of this cactus.keep at a normal room temperature",
+  "Commonnames":"Bunny ear and polka-dot cactus",
+  "Exposure": "position in bright light. Reduce to bright indirect light during the winter months",
+  "Water": "Only water again when the soil has dried out. Over the cooler months they may need only light watering every 3 to 4 weeks."
+  ,"Colorvarieties": "",
+  "Propagation":"Any fully grown pad from this cactus may be broken off cleanly in the early summer and re-potted for propagation purposes. Cuttings work best when grouped in threes or more, and should be buried an inch deep in the soil.",    
+  "Soil": "You can also make your own mix from 40% sand, 40% all-purpose potting soil, and 20% peat moss",
+"types":"Opuntia Microdasys subsp. Rufida, Opuntia Microdasys var. Albispina, Opuntia Microdasys var. Pallida, and Opuntia Microdasys var. Pallida f. Cristata."
+}
+
+ 
+
+  ]
+}
+
+

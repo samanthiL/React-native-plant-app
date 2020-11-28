@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
-import { Text,
+import {
+  Text,
   FlatList,
   Image,
   StyleSheet,
@@ -9,204 +10,248 @@ import { Text,
   Button,
   ScrollView,
   TextInput,
-  TouchableOpacity
+  SafeAreaView,
+  TouchableOpacity,
+  ImageBackground
 } from 'react-native';
-var {height, width } = Dimensions.get('window');
 import api from '../Api.json';
-import Swiper from 'react-native-swiper/src';
-import AsyncStorage from '@react-native-community/async-storage';
+import { floor } from 'react-native-reanimated';
+var { height, width } = Dimensions.get('window');
+import { AsyncStorage } from 'react-native';
 
-import Icon from 'react-native-vector-icons/Ionicons';
+import backicon from '../assets/icons/back.png'
+var SampleArray = [];
 export default class Profile extends Component {
 
-  constructor(props)
-  {
+  constructor(props) {
     super(props);
     this.state = {
-      dataBanner:[],
-      dataCategories:[],
-      selectCatg:0,
-      dataFood:[],
-      carts:[]
-      
+      dataFood: [],
+      carts: [],
+
     }
   }
- 
-  componentDidMount(){
-
+  componentDidMount() {
     this.setState({
-        
-          dataBanner: api.banner,
-          dataCategories: api.categories,
-          dataFood:api.food
-
-        });
-
+      dataFood: api.food,
+    });
   }
 
   render() {
     const { navigation } = this.props;
+
+    const socialMediaList = api.food;
+    let itemids = this.props.route.params;
+
+
+    console.log("iiiii",itemids);
     return (
-      <ScrollView>
-        <View style={{ flex: 1,backgroundColor:"#f2f2f2" }}>
-         
-       
-          <View style={{width:width, borderRadius:20, paddingVertical:20, backgroundColor:'white'}}>
-            <Text style={styles.titleCatg}>Categories {this.state.selectCatg}</Text>
-           
-            <TouchableOpacity
-            //  onPress={()=>this.next()}
-             
-            style={{
-              width:(width/2)-40,
-              backgroundColor:'#33c37d',
-              flexDirection:'row',
-              alignItems:'center',
-              justifyContent:"center",
-              borderRadius:5,
-              padding:4,
-              flexDirection:'row'
-            }}>
-            <Text style={{fontSize:18, color:"white", fontWeight:"bold"}}>Add asasa</Text>
-            <View style={{width:10}} />
-</TouchableOpacity>
 
-            <FlatList
-              horizontal={true}
-              data={this.state.dataCategories}
-
-              renderItem={({ item }) => (
+      <View >
+        <ScrollView>
 
 
-                <TouchableOpacity style={[styles.divFood]}
-                onPress={()=>this.setState({selectCatg:item.id})}>                 
-                 <Image
-                    style={{width:200,height:90}}
-                    resizeMode="contain"
-                    source={{uri : item.image}} />                  
-                  <Text style={{fontWeight:'bold',fontSize:22}}>{item.name}</Text>
-                </TouchableOpacity>
+          {socialMediaList.map(s => {
+            if (itemids.itemid == s.id) {
 
-                  )}
-                  keyExtractor = { (item,index) => index.toString() }
+              let data = s.name
+              AsyncStorage.setItem(
+                'name', JSON.stringify(data)
 
-/>          
-<FlatList
-              //horizontal={true}
-              data={this.state.dataFood}
-              numColumns={2}
-              renderItem={({ item }) => this._renderItemFood(item)}
-              keyExtractor = { (item,index) => index.toString() }
-            />
-           
-              <View style={{height:20}} />
-          </View>
+              );
+              return (
+                <View>
+                  <View style={styles.header}>
+                    <ImageBackground source={{ uri: s.image }} style={styles.image}>
+                    </ImageBackground>
+                  </View>
+                  <View>
 
+                    <View style={styles.content}>
+                      <Text bold style={styles.mainheadertext}>{s.name}</Text>
+                      <Text style={styles.headertext}>BotanicalName
+</Text>
+                      <Text style={styles.botinal}> {s.BotanicalName}</Text>
+
+                      {(s.Commonnames == null) ? null : <Text style={styles.headertext}>Common names
+
+                      <Text style={styles.info}> {s.Commonnames}</Text></Text>}
+                      <Text style={styles.headertext}>Description
+</Text>
+
+
+                      <Text style={styles.info}> {s.description}</Text>
+
+
+                      {(s.types == null) ? null : <Text style={styles.subheadertext}>types:   <Text style={styles.info}>{s.types}</Text></Text>}
+
+
+                      
+                  {(s.medicaltretment == null) ? null : <Text style={styles.subheadertext}>medical uses:   <Text style={styles.info}>{s.medicaltretment}</Text></Text>}
+
+                      <Text style={styles.headertext}>How to care plant
+</Text>
+
+
+                      {(s.Exposure == null) ? null : <Text style={styles.subheadertext} >Exposure<Text style={styles.info}>   {s.Exposure}</Text></Text>}
+
+                      {(s.Water == null) ? null : <Text Bold style={styles.subheadertext}>Water:  <Text style={styles.info}>{s.Water}</Text></Text>}
+
+
+                      {(s.Colorvarieties == null) ? null : <Text style={styles.subheadertext}>Color varieties:  <Text style={styles.info}>{s.Colorvarieties}</Text></Text>}
+
+                      {(s.Diseases == null) ? null : <Text style={styles.subheadertext}>Diseases:   <Text style={styles.info}>{s.Diseases}</Text></Text>}
+
+
+
+                      <View>
+
+
+                      </View>
+
+                    </View>
+                  </View>
+                </View>
+              )
+            }
+          })}
+        </ScrollView>
       </View>
-      </ScrollView>
-    );
+
+
+    )
   }
-
-  _renderItemFood(item){
-
-    const { navigation } = this.props;
- 
-
-    let catg = this.state.selectCatg
-    if(catg==item.categorie)
-    {
-      // const id = item.id;
-      // console.log("rr",id)
-      return(
-      
-  
-        <TouchableOpacity style={styles.divFood}  onPress={() => navigation.navigate('Test', {itemid: item.id})} >
-          <Image
-            style={styles.imageFood}
-            resizeMode="contain"
-            source={{uri:item.image}} />
-            <View style={{height:((width/2)-20)-90, backgroundColor:'transparent', width:((width/2)-20)-10}} />
-            <Text style={{fontWeight:'bold',fontSize:22,textAlign:'center'}}>
-              {item.name}
-            </Text>
-          
-            <Text style={{fontSize:20,color:"green"}}>${item.price}</Text>
-            <Text style={{fontSize:20,color:"blue"}}>{item.description}</Text>
-
-
-          </TouchableOpacity>
-         )
-    }
-  }
-// next ()
-// {
-//   const { navigation } = this.props;
-//   const carts = this.state.carts
-//  console.log("asasss",carts)
-
-//   navigation.navigate('Test',carts)
-
-// }
-
-//   onClickAddCart = async (id,name) => {
-
-//     const cart  = []
-//     const carts = this.state.carts
-//     if (name !== null) {
-
-//  cart.push(name)
-//  carts.push(name)
-// //  console.log("asasss",carts)
-//  console.log("asassssdsdsdss", JSON.stringify(carts))
-//  await AsyncStorage.setItem( 'items',JSON.stringify(carts));
-// // const va = await AsyncStorage.getItem('items')
-// //  console.log("sdsdsds",va)
-
-
-// }
-
-
- }
-
+}
 const styles = StyleSheet.create({
-  imageBanner: {
-    height:width/2,
-    width:width-40,
-    borderRadius:10,
-    marginHorizontal:20
+
+ 
+  image: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center",
   },
-  divCategorie:{
-     backgroundColor:'red',
-    margin:5, alignItems:'center',
-    borderRadius:10,
-    padding:10,
-  
+  text: {
+    color: "white",
+    fontSize: 42,
+    fontWeight: "bold",
+    textAlign: "center",
+    backgroundColor: "#000000a0"
+  },
+
+  header: {
+    height: 250
+    // height: 200,
+  },
+
+  avatar: {
+    width: 270,
+    height: 250,
+    marginTop: -50,
+    borderRadius: 63,
+    borderWidth: 4,
+    borderColor: "white",
+    alignSelf: 'center',
+    position: 'absolute',
+  },
+
+
+  bodyContent: {
+    alignItems: 'center',
+    backgroundColor: "white",
 
   },
-  titleCatg:{
-    fontSize:30,
-    fontWeight:'bold',
-    textAlign:'center',
-    marginBottom:10
-  } ,
-  imageFood:{
-    width:((width/2)-20)-10,
-    height:((width/2)-20)-30,
-    backgroundColor:'transparent',
-    position:'absolute',
-    top:-45
+  content: {
+    backgroundColor: 'white',
+
+    // pkadding:33
+    padding: 25,
+
+    justifyContent:'center'
+    // paddingRight: 42
   },
-  divFood:{
-    width:(width/2)-20,
-    padding:10,
-    borderRadius:10,
-    marginTop:55,
-    marginBottom:5,
-    marginLeft:10,
-    alignItems:'center',
-    elevation:8,
-    shadowOpacity:0.3,
-    shadowRadius:50,
-    backgroundColor:'white',
-  } 
+  mainheadertext: {
+    marginTop: 10,
+    fontSize: 35,
+    color: "#8E4115",
+    fontWeight: "900",
+    textAlign: 'center',
+
+  },
+
+  headertext: {
+    fontSize: 23,
+    margin: 19,
+    color: "#0C5515",
+    fontWeight: "100",
+    textAlign: 'left',
+
+  },
+  subheadertext: {
+    fontSize: 21,
+    margin: 7,
+    color: "#06480E",
+    fontWeight: "900",
+
+  },
+  info: {
+    fontSize: 18,
+    color: "black",
+    justifyContent: 'center',
+    textAlign: 'left'
+
+  },
+
+  botinal: {
+    fontSize: 18,
+    color: "black",
+    justifyContent: 'center',
+    textAlign: 'left',
+    fontStyle: 'italic'
+  },
+  description: {
+    fontSize: 16,
+    color: "black",
+
+    textAlign: 'center'
+  },
+  buttonContainer: {
+    marginTop: 10,
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 20,
+    width: 250,
+    borderRadius: 30,
+    backgroundColor: "#00BFFF",
+    flex: 1,
+    paddingRight: 40
+  },
+  buttonleft: {
+    height: 50,
+    marginTop: 59,
+    marginLeft: 20,
+    marginRight: 20,
+    borderColor: "black",
+    backgroundColor: "#00BFFF",
+    borderRadius: 9,
+    marginBottom: 12
+  },
+
+  leftItem: {
+    height: 45,
+    flexDirection: 'row',
+
+    alignItems: 'center',
+    marginBottom: 20,
+    borderRadius: 30,
+    flex: 1,
+    paddingLeft: 2
+  },
+  rightItem: {
+    flex: 1,
+    alignItems: 'center',
+    paddingRight: 40
+  },
+
 });
